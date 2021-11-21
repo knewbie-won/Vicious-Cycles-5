@@ -7,7 +7,7 @@ body{
     background-color:rgb(102, 102, 102);
 }
 .container{
-    margin: 2.5%;
+    margin: 5%;
     background-color: black;  
 }
 h1{
@@ -26,8 +26,9 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     margin: 2%;
 }
+/*/////////////////////////////top menu buttons/////////////////////////////////*/
 nav{
-    margin-bottom: 2%;
+    margin-bottom: 1%;/*these margins control the grey box*/
     margin-left: 2%;
     margin-right: 2%;
     border-style: solid;
@@ -39,26 +40,113 @@ nav ul li{
     border-color: black;
     border-style: solid;
     background-color:rgb(255, 204, 51);
-    margin: 1%;
-    padding: 1%;
-    width: 8%;
+    margin: 1%;/*this margin controls the space around the buttons*/
+    width: 11%;/*this controls the length of the buttons which squishes buttons*/
     border-radius: 15px;
-    font-size: 80%;
+    font-size: 0.7rem;
+    
     text-align: center;
 }
 nav ul li a:link{
+    display: block;
     text-decoration: none;
-    display: inline;
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color:salmon;*/
+    background-color: rgb(255, 204, 51);
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+nav ul li a:visited{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color:salmon;*/
+    /*background-color: rgb(255, 204, 51);*/
+
+    color:white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+nav ul li a:hover{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    background-color:black;
+    color: white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+/*//////////////////////////////////////sale menu button///////////////////////*/
+/*.sale{
+    margin-bottom: 1%;these margins control the grey box
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(102, 102, 102);
+}*/
+.sale{
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    background-color:rgb(255, 204, 51);
+    margin: 1%;/*this margin controls the space around the buttons*/
+    width: 30%;/*this controls the length of the buttons which squishes buttons*/
+    border-radius: 15px;
+    font-size: 0.7rem;    
+    text-align: center;
+}
+.sale a:link{
+    display: block;
+    text-decoration: none;
     /*border-color: black;
     border-style: solid;*/
     background-color:salmon;
-    margin: 1%;
-    padding: 12% 20%;
-    width: 10%;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
     border-radius: 15px;
-    font-size: 80%;
     text-align: center;
 }
+.sale a:visited{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+        border-style: solid;*/
+    background-color:salmon;
+    color:white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+.sale a:hover{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    background-color:black;
+    color: white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+/*////////////////////////////////*/
 header{
     max-width: 100%;
     padding: 1%;
@@ -177,7 +265,7 @@ img{
     padding: 2%;
 }
 /*///////////////////////////* responsive css*//*//////////////////////*/
-@media (max-width: 1600px) {
+/*@media (max-width: 1600px) {
     body{
         background-color:rgb(102, 102, 102);
     }
@@ -196,7 +284,7 @@ img{
     }
     #mail{
         /*display: inline-block;*/
-        padding: 2%;
+        /*padding: 2%;
         margin: 1%;
     }
     fieldset{
@@ -207,7 +295,7 @@ img{
     }
     #department{
         /*display: block;*/
-        padding: 2%;
+        /*padding: 2%;
         margin: 1%;
     }
 
