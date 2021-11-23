@@ -1,0 +1,345 @@
+/*///////////////////////general css for all pages////////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(102, 102, 102);
+}
+.container{
+    margin: 5%;
+    background-color: black;  
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+    text-align: center;
+    font-size: 36px; 
+}
+h2, h3, h4, h5{
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2%;
+}
+/*/////////////////////////////top menu buttons/////////////////////////////////*/
+nav{
+    
+    margin-bottom: 1%;/*these margins control the grey box*/
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(102, 102, 102);
+}
+nav ul li{
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    /*background-color:rgb(255, 204, 51);*/
+    margin: 1%;/*this margin controls the space around the buttons*/
+    width: 11%;/*this controls the length of the buttons which squishes buttons*/
+    border-radius: 15px;
+    font-size: 0.7rem;
+    
+    text-align: center;
+}
+nav ul li:first-child{
+    margin-left: 8%;
+}
+nav ul li a:link{
+    display: block;
+    text-decoration: none;
+    
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color: salmon;*/
+    
+    color: black;
+    background-color: rgb(255, 204, 51);
+    
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+    
+}
+nav ul li a:visited{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color:salmon;*/
+    
+    background-color: rgb(255, 204, 51);
+    color: black;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+nav ul li a:hover{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    background-color:salmon;
+    /*color: white;*/
+    /*background-color: rgb(255, 204, 51);*/
+    color: black;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+nav ul li a:active {
+    display: block;
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+/*//////////////////////////////////////sale menu button///////////////////////*/
+/*.sale{
+    margin-bottom: 1%;these margins control the grey box
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    background-color:rgb(102, 102, 102);
+}*/
+.sale{
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    /*background-color:rgb(255, 204, 51);*/
+    margin: 1%;/*this margin controls the space around the buttons*/
+    width: 11%;/*this controls the length of the buttons which squishes buttons*/
+    border-radius: 15px;
+    font-size: 0.7rem;
+    
+    text-align: center;
+}
+.sale a:link{
+    display: block;
+    text-decoration: none;
+    
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color: salmon;*/
+    
+    color: black;
+    background-color: rgb(255, 204, 51);
+    
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+.sale a:visited{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    /*background-color:salmon;*/
+    
+    background-color: rgb(255, 204, 51);
+    color: black;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+.sale a:hover{
+    display: block;
+    text-decoration: none;
+    /*border-color: black;
+    border-style: solid;*/
+    background-color: black;
+    /*color: white;*/
+    /*background-color: rgb(255, 204, 51);*/
+    color: white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+.sale a:active{
+    display: block;
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    margin: 1%;/*doesn't change the pick around the words at all*/
+    padding: 2% 0;/*if you change first # the pick expands up and down*/
+    /*if you change second # the pick expands left and right*/
+    border-radius: 15px;
+    text-align: center;
+}
+/*////////////////////////////////*/
+header{
+    max-width: 100%;
+    padding: 1%;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+}
+footer{
+    /*display: inline;*/
+    display: block;
+    max-width: 100%;
+    padding: 2%;
+    background-color: white;
+    margin: 2%;
+    border-style: solid;
+    border-color: black;
+
+}
+section.title{
+    background-color: white;
+    font-size: 28px;
+}
+section{
+    max-width: 100%;
+    padding: 1%;
+    background-color:salmon;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    height: 20%;
+}
+.a{
+    max-width: 90%;
+    padding: 2%;
+    border-style: solid;
+    border-color: black; 
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(102, 102, 102); 
+}
+.b{
+    max-width: 90%;
+    padding: 2%;
+    border-style: solid;
+    border-color: black; 
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: plum;  
+}
+
+aside{
+    display: block;
+    max-width: 100%;
+    padding: 1%;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+}
+.shop ul{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+/*///////////////////////////////form css//////////////////////////////*/
+form{
+    background-color: salmon;
+    margin: 2%;
+    padding: 2%;
+}
+legend{
+    font-size: 1em;
+}
+#name, #address, #city, #state, #email{
+    display: block;
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+}
+fieldset{
+    font-size: 1em;
+    padding: 2%;
+    margin: 1%;
+    width: 70%;
+}
+label{
+    padding: 2%;
+    margin: 1%;
+}
+button{
+    margin: 1% 0 0 2%;
+    /*display: block;*/
+}
+#message{
+    padding: 2%;
+    margin: 1%;
+    display: block;
+}
+#department{
+    padding: 2%;
+    margin: 1%;
+}
+img{
+    max-width: 90%;
+    padding: 2%;
+}
+/*///////////////////////////* responsive css*//*//////////////////////*/
+/*@media (max-width: 1600px) {
+    body{
+        background-color:rgb(102, 102, 102);
+    }
+    header{
+        max-width: 90;
+    }    
+}
+@media (max-width: 900px) {
+    body{
+        background-color:rgb(102, 102, 102);
+    }
+}
+@media (max-width: 600px) {
+    body{
+        background-color:rgb(102, 102, 102);
+    }
+    #mail{
+        /*display: inline-block;*/
+        /*padding: 2%;
+        margin: 1%;
+    }
+    fieldset{
+        display: block;
+        font-size: 1em;
+        padding: 2%;
+        margin: 1%;
+    }
+    #department{
+        /*display: block;*/
+        /*padding: 2%;
+        margin: 1%;
+    }
+
+}
